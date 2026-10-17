@@ -1,60 +1,31 @@
 # Brian Reyes
 
-**AI Automation & Systems Developer**  
-*Automation, API-integrated systems, and agent-assisted software engineering.*
+**AI Automation & Systems Developer**
 
-I build workflows and applications that connect business processes, data, and AI. I start by understanding the operational path: what triggers a process, which system owns each piece of data, what should be deterministic, where an AI model adds value, and how to verify the outcome.
+I build automation and software systems that connect business workflows, APIs, databases, and AI. My focus is on reliable integrations, clear ownership of data and decisions, and implementations that can be tested in the working system.
 
-[Portfolio](https://bri-automates.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/brian-reyes-automates)
+[Portfolio](https://bri-automates.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/brian-reyes-automates) · [Email](mailto:reyes.brianjohn.papa@gmail.com)
 
----
+## Areas of work
 
-### What I work on
+- **Automation & integrations** — event-driven workflows, CRM and communication systems, API/webhook orchestration, and exception handling.
+- **AI-enabled systems** — tool calling, retrieval-assisted workflows, structured outputs, and practical integration of models with application logic.
+- **Software development** — web and mobile applications, backend services, databases, and deployment workflows.
 
-- **Automation & business systems:** event-driven workflows, CRM integrations, API/webhook orchestration, and approval or exception paths.
-- **AI-enabled workflows:** LLM tool calling, retrieval-assisted processes, structured outputs, and explicit boundaries between model decisions and application logic.
-- **Software & infrastructure:** web interfaces, services, databases, deployment environments, and the contracts between them.
+## Engineering approach
 
-### How I engineer
+I start by understanding the existing process, its data flow, integration boundaries, and failure cases. For substantial development work, I use a private **AI Engineering Manual** to keep scope, acceptance criteria, execution constraints, and verification expectations explicit.
 
-I use a **private AI Engineering Manual** to structure agent-assisted development. It separates decision-making authority from implementation, scales verification to risk, and treats observed behavior—not an agent's completion message—as the basis for acceptance.
+My workflow uses **Codex CLI**, often within **ORCA**, for implementation. I also use **Claude Code** and task-specific methods from **Open Pstack** where appropriate. Agent assistance helps with execution; design decisions, review, and acceptance remain grounded in the actual system. I check relevant tests, runtime behavior, and resulting data or state before treating work as complete.
 
-```mermaid
-flowchart TD
-    A["Understand the system and goal"] --> B["Classify risk, scope and acceptance"]
-    B --> C["Bounded execution envelope"]
-    C --> D["Codex CLI + task-specific engineering skills"]
-    D --> E["Build · test · run · inspect · repair"]
-    E --> F{"Behavior verified against acceptance?"}
-    F -->|Not yet| D
-    F -->|Yes| G["Human review and next decision"]
-```
+## Tools & technologies
 
-- **Control:** clarify constraints, system ownership, acceptance criteria, and protected actions before consequential changes.
-- **Execution:** use **Codex CLI** as the primary implementation agent within my **ORCA** workspace; select **Open Pstack** methods and other task-specific skills when appropriate. One execution owner is the default; delegation is bounded by the task.
-- **Evidence:** inspect tests, runtime behavior, data/state changes, and failure paths. Keep implementation, verification, and release authorization distinct.
-
-The objective isn't maximum agent autonomy. It's **useful engineering throughput with traceable decisions and reviewable results**.
-
-### Technology stack
-
-| Area | Tools and technologies |
+| Area | Stack |
 | --- | --- |
-| **Automation & integrations** | **n8n**, **Make**, **GoHighLevel (GHL)**, HubSpot, REST APIs, webhooks |
-| **AI systems** | OpenAI API, Claude, Gemini, tool/function calling, RAG and retrieval workflows |
-| **Applications** | TypeScript, JavaScript, React, Vite, Node.js |
-| **Data & infrastructure** | PostgreSQL, Supabase, Docker, Linux/WSL2, Microsoft Azure, Vercel, Git/GitHub |
-| **Agent-assisted engineering** | Codex CLI, ORCA, Open Pstack, custom engineering instructions and skills |
+| **Automation & integrations** | n8n, Make, GoHighLevel (GHL), Activepieces, Power Automate, HubSpot, Airtable, REST APIs, webhooks, Microsoft 365 (Teams, SharePoint, Outlook), Google Workspace (Gmail, Sheets, Drive, Calendar), Slack |
+| **AI & model tooling** | OpenAI API / ChatGPT, Claude, **Claude Code**, Gemini, OpenRouter, Ollama, NVIDIA NIM, Pinecone, LLM tool calling, RAG |
+| **Application development** | TypeScript, JavaScript, Java, React, React Native, Expo, Next.js, Vite, HTML, CSS, Tailwind CSS, Node.js, NestJS, Socket.IO, MapLibre |
+| **Data & infrastructure** | PostgreSQL, Supabase, MongoDB, SQLite, Oracle Database, Metabase, Docker, Linux / WSL2, Microsoft Azure, Vercel, Git, GitHub |
+| **Agent-assisted engineering** | Codex CLI, **Claude Code**, ORCA, Open Pstack, Cursor, Windsurf, project-specific instructions and reusable agent skills |
 
-<details>
-<summary><strong>Additional tools & working environments</strong></summary>
-
-Activepieces · Power Automate · Microsoft 365 (SharePoint, Teams, Outlook) · Google Workspace APIs · Airtable · Pinecone · MongoDB · Metabase · Java · React Native / Expo · Cursor · Windsurf · NVIDIA NIM · OpenRouter · Ollama
-
-These are supporting tools I have used or explored to different depths—not a claim of equal proficiency with every technology.
-
-</details>
-
----
-
-**Engineering principle:** Keep systems useful, understandable, and verifiable. When something works, be able to explain *why*—and show what was actually checked.
+<sub>Tools listed reflect hands-on work and ongoing exploration at different levels of depth.</sub>
