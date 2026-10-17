@@ -16,16 +16,17 @@ I build automation and software systems that connect business workflows, APIs, d
 
 I start by understanding the existing process, its data flow, integration boundaries, and failure cases. For substantial development work, I use a private **AI Engineering Manual** to keep scope, acceptance criteria, execution constraints, and verification expectations explicit.
 
-My workflow uses **Codex CLI**, often within **ORCA**, for implementation. I also use **Claude Code** and task-specific methods from **Open Pstack** where appropriate. Agent assistance helps with execution; design decisions, review, and acceptance remain grounded in the actual system. I check relevant tests, runtime behavior, and resulting data or state before treating work as complete.
+My workflow uses **Codex CLI** and **Claude Code**, with **ORCA** and task-specific **Open Pstack** methods where appropriate. Agent assistance supports implementation; design decisions, review, and acceptance remain grounded in the actual system. I check relevant tests, runtime behavior, and resulting data or state before treating work as complete.
 
 ## Tools & technologies
 
 | Area | Stack |
 | --- | --- |
-| **Automation & integrations** | n8n, Make, GoHighLevel (GHL), Activepieces, Power Automate, HubSpot, Airtable, REST APIs, webhooks, Microsoft 365 (Teams, SharePoint, Outlook), Google Workspace (Gmail, Sheets, Drive, Calendar), Slack |
-| **AI & model tooling** | OpenAI API / ChatGPT, Claude, **Claude Code**, Gemini, OpenRouter, Ollama, NVIDIA NIM, Pinecone, LLM tool calling, RAG |
-| **Application development** | TypeScript, JavaScript, Java, React, React Native, Expo, Next.js, Vite, HTML, CSS, Tailwind CSS, Node.js, NestJS, Socket.IO, MapLibre |
-| **Data & infrastructure** | PostgreSQL, Supabase, MongoDB, SQLite, Oracle Database, Metabase, Docker, Linux / WSL2, Microsoft Azure, Vercel, Git, GitHub |
-| **Agent-assisted engineering** | Codex CLI, **Claude Code**, ORCA, Open Pstack, Cursor, Windsurf, project-specific instructions and reusable agent skills |
+| **Automation & integrations** | n8n, Make, GoHighLevel (GHL), Activepieces, HubSpot, Airtable, REST APIs, webhooks, Microsoft 365 (Teams, SharePoint, Outlook), Google Workspace (Gmail, Sheets, Drive, Calendar), Slack |
+| **AI & model tooling** | OpenAI API / ChatGPT, Gemini, DeepSeek, OpenRouter, Ollama, NVIDIA NIM, Pinecone, LLM tool calling, RAG |
+| **Web & mobile** | TypeScript, JavaScript, React, React Native / React Native Web, Expo / Expo Router, Next.js, Vite, React Router, HTML/CSS, Tailwind CSS, shadcn/ui, MapLibre |
+| **Backend & data** | Node.js, Fastify, NestJS, Zod, Drizzle ORM, PostgreSQL, Supabase, MongoDB, SQLite, Oracle Database, Socket.IO, Java (JDK / CLI) |
+| **Infrastructure & testing** | Docker / Docker Compose, Linux / WSL2, Microsoft Azure, Vercel, Cloudflare Pages, Git / GitHub, GitHub Actions, pnpm, Vitest, Playwright, Metabase |
+| **Agent-assisted development** | Codex CLI, Claude Code, ORCA, Open Pstack, Cursor, Obsidian, project-specific instructions and reusable agent skills |
 
-<sub>Tools listed reflect hands-on work and ongoing exploration at different levels of depth.</sub>
+<sub>Selected tools from hands-on work and current project stacks; depth of experience varies, and planned components are not necessarily deployed.</sub>
